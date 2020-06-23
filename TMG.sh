@@ -27,7 +27,6 @@ echo -e "\e[93mCleaning Trash Files\e[0m"
 rm inserted_prefix.txt
 rm ipsum.txt
 rm nocomments.txt
-rm added_needed_tabs.txt
 rm removed_digit_at_end.txt
 rm removed_tabs_and_spaces.txt
 echo -e "\e[93mTrash Files Cleaned\e[0m"
