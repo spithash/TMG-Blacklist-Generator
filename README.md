@@ -5,6 +5,10 @@ It's useful when you want to bulk import IPs to block.
 
 The list is constantly updated, huge shoutout to https://github.com/stamparm/ipsum
 
-You need both sample_tmg.xml for the script to work.
+You need both files (sample_tmg.xml & TMG.sh) for it to work.
 
-Create a folder and just drop them there, then just change your destination directory at line #2 of TMG.sh and you're done.
+Create a folder in your home directory and just drop them there, then just change your destination directory at line #2 of TMG.sh and you're done.
+
+Keep it updated using a cronjob or run it manually, it only takes a few seconds.
+
+Enjoy :)
