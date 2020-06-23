@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/user/TMG
+cd ~/TMG-Blacklist-Generator
 echo -e "\e[1mFetching Blacklist\e[0m..."
 wget https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt
 echo -e "Removing \e[1mComments\e[0m"
