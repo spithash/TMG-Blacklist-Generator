@@ -20,12 +20,16 @@ echo -e "\e[2mDone Inserting Prefix\e[0m"
 echo -e "Inserting \e[1mSuffix\e[0m"
 awk '{print $0"</fpc4:Str>"}' inserted_prefix.txt > ip-blacklist.xml
 echo -e "\e[35mDone Inserting Suffix\e[0m"
+echo -e "Adding \e[1mProper Tabs\e[0m"
+sed -i -e 's/^/\t\t\t\t\t\t/' ip-blacklist.xml
+echo -e "\e[2mAdded Proper Tabs\e[0m"
 echo -e "\e[93mCleaning Trash Files\e[0m"
-rm inserted_prefix.txt
-rm ipsum.txt
-rm nocomments.txt
-rm removed_digit_at_end.txt
-rm removed_tabs_and_spaces.txt
+#rm inserted_prefix.txt
+#rm ipsum.txt
+#rm nocomments.txt
+#rm added_needed_tabs.txt
+#rm removed_digit_at_end.txt
+#rm removed_tabs_and_spaces.txt
 echo -e "\e[93mTrash Files Cleaned\e[0m"
 echo -e "\e[93mListing TempFile:\e[0m"
 du -sh ip-blacklist.xml
