@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpc4:Root xmlns:fpc4="http://schemas.microsoft.com/isa/config-4" xmlns:dt="urn:schemas-microsoft-com:datatypes" StorageName="FPC" StorageType="0">
+        <fpc4:Build dt:dt="string">7.0.9193.500</fpc4:Build>
+        <fpc4:Comment dt:dt="string"/>
+        <fpc4:Edition dt:dt="int">32</fpc4:Edition>
+        <fpc4:EnterpriseLevel dt:dt="int">2</fpc4:EnterpriseLevel>
+        <fpc4:ExportItemClassCLSID dt:dt="string">{D6C38DA0-C96C-4894-8C6C-6A2EA0121BE2}</fpc4:ExportItemClassCLSID>
+        <fpc4:ExportItemCompatibilityVersion dt:dt="int">4</fpc4:ExportItemCompatibilityVersion>
+        <fpc4:ExportItemScope dt:dt="int">0</fpc4:ExportItemScope>
+        <fpc4:ExportItemStorageName dt:dt="string">URLSets</fpc4:ExportItemStorageName>
+        <fpc4:IsaXmlVersion dt:dt="string">9.0</fpc4:IsaXmlVersion>
+        <fpc4:OptionalData dt:dt="int">12</fpc4:OptionalData>
+        <fpc4:Upgrade dt:dt="boolean">0</fpc4:Upgrade>
+        <fpc4:ConfigurationMode dt:dt="int">0</fpc4:ConfigurationMode>
+        <fpc4:Arrays StorageName="Arrays" StorageType="0">
+                <fpc4:Array StorageName="{614284B0-7B63-4905-B7F4-8EFB814CF9BC}" StorageType="0">
+                        <fpc4:AdminMajorVersion dt:dt="int">0</fpc4:AdminMajorVersion>
+                        <fpc4:AdminMinorVersion dt:dt="int">0</fpc4:AdminMinorVersion>
+                        <fpc4:Components dt:dt="int">-1</fpc4:Components>
+                        <fpc4:DNSName dt:dt="string"/>
+                        <fpc4:Name dt:dt="string"/>
+                        <fpc4:Version dt:dt="string">0</fpc4:Version>
+                        <fpc4:RuleElements StorageName="RuleElements" StorageType="0">
+                                <fpc4:URLSets StorageName="URLSets" StorageType="1">
+                                        <fpc4:URLSet StorageName="{D0A22390-0530-4245-BC2C-6B5BFC30BADB}" StorageType="1">
+                                                <fpc4:Name dt:dt="string">Blacklist by IP Address</fpc4:Name>
+                                                <fpc4:Predefined dt:dt="boolean">0</fpc4:Predefined>
+                                                <fpc4:URLStrings>
+                                                </fpc4:URLStrings>
+                                        </fpc4:URLSet>
+                                        <fpc4:URLSet StorageName="{9a1887dc-dfd3-4b92-960a-3127ba536926}" StorageType="1">
+                                                <fpc4:Description dt:dt="string">URLs that computers with restricted Internet access can use for remediation, after Forefront Protection Manager issues a response to restrict their access.$
+                                                <fpc4:Name dt:dt="string">Forefront Protection Manager Remediation List</fpc4:Name>
+                                                <fpc4:Predefined dt:dt="boolean">1</fpc4:Predefined>
+                                        </fpc4:URLSet>
+                                </fpc4:URLSets>
+                        </fpc4:RuleElements>
+                </fpc4:Array>
+        </fpc4:Arrays>
+</fpc4:Root>
