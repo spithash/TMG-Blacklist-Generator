@@ -16,4 +16,4 @@ Keep it updated using a cronjob or run it manually, it only takes a few seconds.
 Enjoy :)
 
 
-![alt text](https://github.com/spithash/trunk/blob/master/TMG.gif?raw=true)
+![TMG.sh execution in linux terminal](https://github.com/spithash/trunk/blob/master/TMG.gif?raw=true)
