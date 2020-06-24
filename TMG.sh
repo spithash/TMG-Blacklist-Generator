@@ -21,8 +21,14 @@ echo -e "Removing \e[1mSpaces & Tabs\e[0m"
 sed 's/[[:blank:]]*$//' removed_digit_at_end.txt > removed_tabs_and_spaces.txt
 echo -e "\e[2mCleaned Spaces & Tabs\e[0m"
 
+#####################################################
+# Chose between the 2 options, you can't have both! #
+#####################################################
 echo -e "Inserting \e[1mFirst Prefix\e[0m"
-sed -e 's/^/<fpc4:Str dt:dt="string">http:\/\//' removed_tabs_and_spaces.txt > inserted_prefix.txt
+# Use below if you're adding IPs 
+sed -e 's/^/<fpc4:Str dt:dt="string">/' removed_tabs_and_spaces.txt > inserted_prefix.txt
+# Use below if you're adding URLSets 
+#sed -e 's/^/<fpc4:Str dt:dt="string">http:\/\//' removed_tabs_and_spaces.txt > inserted_prefix.txt
 echo -e "\e[2mDone Inserting Prefix\e[0m"
 
 echo -e "Inserting \e[1mSuffix\e[0m"
