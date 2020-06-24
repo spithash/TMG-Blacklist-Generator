@@ -11,4 +11,6 @@ Create a folder in your home directory and just drop them there, then just chang
 
 Keep it updated using a cronjob or run it manually, it only takes a few seconds.
 
+<p><a href="https://github.com/spithash/TMG-Blacklist-Generator/blob/master/LICENSE">GNU General Public License</a></p>
+
 Enjoy :)
