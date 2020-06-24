@@ -14,3 +14,6 @@ Keep it updated using a cronjob or run it manually, it only takes a few seconds.
 <p><a href="https://github.com/spithash/TMG-Blacklist-Generator/blob/master/LICENSE">TMG.sh is GPLv3+.</a></p>
 
 Enjoy :)
+
+
+![alt text](https://github.com/spithash/trunk/blob/master/TMG.gif?raw=true)
