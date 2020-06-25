@@ -7,12 +7,12 @@ The list is constantly updated, huge shoutout to https://github.com/stamparm/ips
 
 You need both files (sample_tmg.xml & TMG.sh) for it to work.
 
-# Configuring
+# Configuring - Importing/Exporting
 Create a folder in your home directory and just drop them there, then just change your destination directory at line #2 of TMG.sh and you're done. (or just clone the repo). 
 
 You probably need to create your own sample_tmg.xml at some point and replace the contents of the file. To do that, go to Forefront TMG Management and just create an empty URLset in Web Access Policy > Toolbox > URL Sets > New > URL set. 
 After that, right click on it from the list of the URLsets which are in the Toolbox list on the right and export it, it's an XML file. Copy its contents to sample_tmg.xml and when you run TMG.sh, it will use that sample to create the final.xml file.
-More info on creating the sample can be found on this tutorial over here http://blog.ylnotes.com/microsoft-tmg-2010-the-easiest-way-to-import-url-sets/
+More info on exporting the sample XML and also on importing the final.xml that you will generate can be found on this tutorial over here http://blog.ylnotes.com/microsoft-tmg-2010-the-easiest-way-to-import-url-sets/
 
 # Licence
 <p><a href="https://github.com/spithash/TMG-Blacklist-Generator/blob/master/LICENSE">TMG.sh is GPLv3+.</a></p>
