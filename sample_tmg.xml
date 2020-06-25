@@ -4,10 +4,10 @@
 	<fpc4:Comment dt:dt="string"/>
 	<fpc4:Edition dt:dt="int">32</fpc4:Edition>
 	<fpc4:EnterpriseLevel dt:dt="int">2</fpc4:EnterpriseLevel>
-	<fpc4:ExportItemClassCLSID dt:dt="string">{D6C38DA0-C96C-4894-8C6C-6A2EA0121BE2}</fpc4:ExportItemClassCLSID>
+	<fpc4:ExportItemClassCLSID dt:dt="string">{AA2E238A-0B11-4EF8-9257-DA4864F87A5A}</fpc4:ExportItemClassCLSID>
 	<fpc4:ExportItemCompatibilityVersion dt:dt="int">4</fpc4:ExportItemCompatibilityVersion>
 	<fpc4:ExportItemScope dt:dt="int">0</fpc4:ExportItemScope>
-	<fpc4:ExportItemStorageName dt:dt="string">URLSets</fpc4:ExportItemStorageName>
+	<fpc4:ExportItemStorageName dt:dt="string">{0D6D7BF1-60D4-4A96-A78F-B15C11EE58B3}</fpc4:ExportItemStorageName>
 	<fpc4:IsaXmlVersion dt:dt="string">9.0</fpc4:IsaXmlVersion>
 	<fpc4:OptionalData dt:dt="int">12</fpc4:OptionalData>
 	<fpc4:Upgrade dt:dt="boolean">0</fpc4:Upgrade>
@@ -21,17 +21,10 @@
 			<fpc4:Name dt:dt="string"/>
 			<fpc4:Version dt:dt="string">0</fpc4:Version>
 			<fpc4:RuleElements StorageName="RuleElements" StorageType="0">
-				<fpc4:URLSets StorageName="URLSets" StorageType="1">
-					<fpc4:URLSet StorageName="{D0A22390-0530-4245-BC2C-6B5BFC30BADB}" StorageType="1">
+				<fpc4:URLSets StorageName="URLSets" StorageType="0">
+					<fpc4:URLSet StorageName="{0D6D7BF1-60D4-4A96-A78F-B15C11EE58B3}" StorageType="1">
 						<fpc4:Name dt:dt="string">Blacklist by IP Address</fpc4:Name>
 						<fpc4:Predefined dt:dt="boolean">0</fpc4:Predefined>
-						<fpc4:URLStrings>
-						</fpc4:URLStrings>
-					</fpc4:URLSet>
-					<fpc4:URLSet StorageName="{9a1887dc-dfd3-4b92-960a-3127ba536926}" StorageType="1">
-						<fpc4:Description dt:dt="string">URLs that computers with restricted Internet access can use for remediation, after Forefront Protection Manager issues a response to restrict their access.</fpc4:Description>
-						<fpc4:Name dt:dt="string">Forefront Protection Manager Remediation List</fpc4:Name>
-						<fpc4:Predefined dt:dt="boolean">1</fpc4:Predefined>
 					</fpc4:URLSet>
 				</fpc4:URLSets>
 			</fpc4:RuleElements>
