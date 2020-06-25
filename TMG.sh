@@ -21,7 +21,7 @@ echo -e "Removing \e[1mSpaces & Tabs\e[0m"
 sed 's/[[:blank:]]*$//' removed_digit_at_end.txt > removed_tabs_and_spaces.txt
 echo -e "\e[2mCleaned Spaces & Tabs\e[0m"
 
-echo -e "Inserting \e[1mFirst Prefix\e[0m"
+echo -e "Inserting \e[1mPrefix\e[0m"
 sed -e 's/^/<fpc4:Str dt:dt="string">http:\/\//' removed_tabs_and_spaces.txt > inserted_prefix.txt
 echo -e "\e[2mDone Inserting Prefix\e[0m"
 
