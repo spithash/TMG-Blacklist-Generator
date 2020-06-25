@@ -25,6 +25,8 @@
 					<fpc4:URLSet StorageName="{0D6D7BF1-60D4-4A96-A78F-B15C11EE58B3}" StorageType="1">
 						<fpc4:Name dt:dt="string">Blacklist by IP Address</fpc4:Name>
 						<fpc4:Predefined dt:dt="boolean">0</fpc4:Predefined>
+						<fpc4:URLStrings>
+						</fpc4:URLStrings>
 					</fpc4:URLSet>
 				</fpc4:URLSets>
 			</fpc4:RuleElements>
