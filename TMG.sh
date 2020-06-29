@@ -62,7 +62,7 @@ echo -e "\e[1mCleaning Trash Files\e[0m"
 		echo -e "Error: \e[91mCould not clean trash files\e[0m" && exit 0
 	fi
 
-echo -e "\e[1mListing TempFile:\e[0m"
+echo -e "\e[1mListing TempFile Size:\e[36m"
 du -sh ip-blacklist.xml
 
 	if sed '/<fpc4:URLStrings>/ r ip-blacklist.xml' sample_tmg.xml > final.xml ; then
@@ -76,7 +76,7 @@ sleep 7
 echo -e "\e[2mCleaning Temp XML File\e[0m"
 rm ip-blacklist.xml
 
-echo -e "\e[2mListing Final File:\e[0m"
+echo -e "\e[1mListing Final File Size:\e[36m"
 du -sh final.xml
 
 echo -e "\e[32mDone!\e[0m"
