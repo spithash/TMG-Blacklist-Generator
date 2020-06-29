@@ -1,8 +1,6 @@
 #!/bin/bash
 
-cd ~/TMG-Blacklist-Generator
-
-echo -e "\e[1mFetching Blacklist\e[0m..."
+cd ~/TMG-Blacklist-Generator && echo -e "\e[1mFetching Blacklist\e[0m..."
 wget https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt
 
 echo -e "Removing \e[1mComments\e[0m"
@@ -30,12 +28,9 @@ echo -e "\e[93mCleaning Trash Files\e[0m"
 rm inserted_prefix.txt && rm ipsum.txt && rm nocomments.txt && rm removed_digit_at_end.txt && rm removed_tabs_and_spaces.txt && echo -e "\e[93mTrash Files Cleaned\e[0m"
 
 echo -e "\e[93mListing TempFile:\e[0m"
-du -sh ip-blacklist.xml
+du -sh ip-blacklist.xml && echo -e "\e[91mCombining XML Files\e[0m"
 
-echo -e "\e[91mCombining XML Files\e[0m"
-sed '/<fpc4:URLStrings>/ r ip-blacklist.xml' sample_tmg.xml > final.xml
-
-sleep 7
+sed '/<fpc4:URLStrings>/ r ip-blacklist.xml' sample_tmg.xml > final.xml && sleep 7
 
 echo -e "\e[93mCleaning Temp XML File\e[0m"
 rm ip-blacklist.xml
