@@ -1,4 +1,5 @@
 #!/bin/bash
+# TMG IP Blacklist XML Generator
 
 cd ~/TMG-Blacklist-Generator && echo -e "\e[1mFetching Blacklist\e[0m..."
 wget https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt
