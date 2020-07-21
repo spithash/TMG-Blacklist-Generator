@@ -1,7 +1,7 @@
 #!/bin/bash
 # TMG IP Blacklist XML Generator
 
-cd ~/TMG-Blacklist-Generator 
+cd ~/TMG-Blacklist-Generator
 echo -e "\n"
 echo -e "\e[1mFetching Blacklist\e[0m...\n"
 wget https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt
@@ -40,7 +40,7 @@ echo -e "\e[1mInserting Prefix\e[0m"
 	else
 		echo -e "Error: \e[91mCould not insert prefix\e[0m" && exit 0
 	fi
- 
+
 echo -e "\e[1mInserting Suffix\e[0m"
 	if awk '{print $0"</fpc4:Str>"}' inserted_prefix.txt > ip-blacklist.xml ; then
 		echo -e "\e[2mDone Inserting Suffix\e[0m"
@@ -49,7 +49,7 @@ echo -e "\e[1mInserting Suffix\e[0m"
 	fi
 
 echo -e "\e[1mAdding Proper Tabs\e[0m"
-	if sed -i -e 's/^/\t\t\t\t\t\t/' ip-blacklist.xml ; then 
+	if sed -i -e 's/^/\t\t\t\t\t\t/' ip-blacklist.xml ; then
 		echo -e "\e[2mAdded Proper Tabs\e[0m"
 	else
 		echo -e "Error: \e[91mCould not add tabs\e[0m" && exit 0
