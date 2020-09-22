@@ -11,7 +11,7 @@ You need both files (sample_tmg.xml & TMG.sh) for it to work.
 Create a folder in your home directory and just drop them there, then just change your destination directory at line #3 of TMG.sh and you're done. (or just clone the repo). 
 
 You probably need to create your own sample_tmg.xml at some point and replace the contents of the file. To do that, go to Forefront TMG Management and just create an empty URLset in Web Access Policy > Toolbox > URL Sets > New > URL set. 
-After that, right click on it from the list of the URLsets which are in the Toolbox list on the right and export it, it's an XML file. Copy its contents to sample_tmg.xml and when you run TMG.sh, it will use that sample to create the final.xml file.
+After that, right click on it from the list of the URLsets which are in the Toolbox list on the right and export it, it's an XML file. Paste its contents to sample_tmg.xml and when you run TMG.sh, it will use that sample to create the final.xml file.
 
 More info on exporting the sample XML and also on importing the final.xml that you will generate can be found on this tutorial over here https://github.com/spithash/trunk/wiki/This-tutorial-is-written-to-help-TMG-administrator-to-upload-URL-Sets-the-easiest-way
 # Licence
